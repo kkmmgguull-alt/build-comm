@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "runbatch",
+  "version": "1.0.0",
+  "name": "RunBatch Commands",
+  "description": "Allows executing semicolon-separated commands inside a single Command Block.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.multicmd.MultiCmdMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21",
+    "fabric-api": "*"
+  }
+}
